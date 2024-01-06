@@ -1,6 +1,4 @@
-// Exercise 2: Write a program that takes input and calculates the volume of a cube.
+let question1Name = "Eric";
+let question1messgae = ` " Hello ${question1Name} would you like to learn some Python today? " `;
 
-let volume: number = 3;
-let volumeOfCube: number = volume * volume * volume;
-
-console.log(volumeOfCube);
+console.log(question1messgae);

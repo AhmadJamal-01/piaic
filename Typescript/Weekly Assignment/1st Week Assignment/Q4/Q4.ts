@@ -1,13 +1,4 @@
-// Exercise 4:   Write a program that checks if a given number is even or odd.
+let authorName: string = "Albert Einstein  ";
+let famousQoute: string = `said once, "Life is a fight. If you don't fight, you can't win."`;
 
-// Check Odd and Even Numbers
-
-let number = 4;
-
-if (number / 2 == 0) {
-  console.log("Even");
-} else {
-  console.log("odd");
-}
-
-export {};
+console.log(authorName + famousQoute);

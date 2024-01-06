@@ -1,10 +1,4 @@
-// Exercise 5:  Write a program that determines if a person is eligible to vote based on their age.
-let age: number = 15;
+let question5Name = " Andrew Tate ";
+let question5quote = ` ${question5Name}said once, "Life is a fight. If you don't fight, you can't win." `;
 
-if (age >= 18) {
-  console.log("You are eligible for casting vote");
-} else {
-  console.log("You are NOT eligible for casting vote");
-}
-
-export {};
+console.log(question5quote);

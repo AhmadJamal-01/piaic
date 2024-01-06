@@ -1,11 +1,26 @@
-// Exercise 3:  Write a program that checks if a given number is positive, negative, or zero.
+let Question3 = " Eric john";
 
-let checkNumber: number = 0;
+// lowerCase
+let lowercaseName = Question3.toLowerCase();
 
-if (checkNumber > 0) {
-  console.log("Positive");
-} else if (checkNumber < 0) {
-  console.log("Positive");
-} else {
-  console.log("Zero");
+console.log(lowercaseName);
+
+//upperCase
+
+let upercaseName = Question3.toUpperCase();
+
+console.log(upercaseName);
+
+//titleCase
+
+let nameWords: string[] = Question3.split(" ");
+let titlecaseName: string = "";
+
+for (let i = 0; i < nameWords.length; i++) {
+  titlecaseName +=
+    nameWords[i].charAt(0).toUpperCase() +
+    nameWords[i].slice(1).toLowerCase() +
+    " ";
 }
+
+console.log(titlecaseName);
