@@ -2,11 +2,15 @@
 
 let names = ["Ali", "Akbar", "Asghar", "Ahmad", "Jamal"];
 
-console.log(names[0] + " Helo Bro");
-console.log(names[1] + " Helo Bro");
-console.log(names[2] + " Helo Bro");
-console.log(names[3] + " Helo Bro");
-console.log(names[4] + " Helo Bro");
+names.forEach((guest: string) => {
+  console.log(`Dear ${guest}, you are invited to dinner.`);
+});
+
+// console.log(names[0] + " Helo Bro");
+// console.log(names[1] + " Helo Bro");
+// console.log(names[2] + " Helo Bro");
+// console.log(names[3] + " Helo Bro");
+// console.log(names[4] + " Helo Bro");-
 
 // let guestlist = [];
 

@@ -5,7 +5,8 @@ function main() {
         { type: "input", name: "num1", message: "Enter the first number" },
         { type: "input", name: "num2", message: "Enter the second number" },
         {
-            type: "input",
+            type: "list",
+            name: "operation",
             choices: ["+", "-", "*", "/"],
             message: "Enter your Operation",
         },

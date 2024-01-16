@@ -8,6 +8,7 @@ function main() {
       { type: "input", name: "num2", message: "Enter the second number" },
       {
         type: "list",
+        name: "operation",
         choices: ["+", "-", "*", "/"],
         message: "Enter your Operation",
       },
