@@ -5,6 +5,6 @@ let width: number = 8;
 
 let rectangleArea = lenght * width;
 
-console.log("Area of Rectangle" + rectangleArea);
+console.log("Area of Rectangle = " + rectangleArea);
 
 export {};

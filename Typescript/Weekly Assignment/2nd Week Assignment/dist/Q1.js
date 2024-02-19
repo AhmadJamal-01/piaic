@@ -4,4 +4,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 let lenght = 6;
 let width = 8;
 let rectangleArea = lenght * width;
-console.log("Area of Rectangle" + rectangleArea);
+console.log("Area of Rectangle = " + rectangleArea);

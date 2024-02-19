@@ -1,10 +1,10 @@
 "use strict";
 // - Write a program to convert the temperature from Celsius to Fahrenheit and vice verse.
 Object.defineProperty(exports, "__esModule", { value: true });
-let Fahrenheit = 5;
-let Celsius = 15;
-let convertTempratureFahrenheit = 1.8 * Celsius + 32;
-let convertTempratureCelsius = (Fahrenheit - 32) * 1.8;
+let Fahrenheit = 98;
+let Celsius = 36;
+let convertTempratureFahrenheit = (Celsius * 9) / 5 + 32;
+let convertTempratureCelsius = ((Fahrenheit - 32) * 5) / 9;
 console.log("Fahrenheit = " + convertTempratureFahrenheit);
 console.log("Celsius = " + convertTempratureCelsius);
 function celsiusToFahrenheit(celsius) {

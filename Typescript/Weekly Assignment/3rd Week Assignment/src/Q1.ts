@@ -1,11 +1,11 @@
 // - Write a program to convert the temperature from Celsius to Fahrenheit and vice verse.
 
-let Fahrenheit: number = 5;
+let Fahrenheit: number = 98;
 
-let Celsius: number = 15;
+let Celsius: number = 36;
 
-let convertTempratureFahrenheit = 1.8 * Celsius + 32;
-let convertTempratureCelsius = (Fahrenheit - 32) * 1.8;
+let convertTempratureFahrenheit = (Celsius * 9) / 5 + 32;
+let convertTempratureCelsius =((Fahrenheit - 32) * 5) / 9;
 
 console.log("Fahrenheit = " + convertTempratureFahrenheit);
 console.log("Celsius = " + convertTempratureCelsius);
